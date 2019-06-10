@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartclinicreservation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".DoctorApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/doctor"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/doctor"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".doctor.DoctorBookedTime" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".doctor.DoctorInformation" />
+        <activity android:name=".doctor.DoctorChatActivity" />
+        <activity android:name=".patient.Booking" />
+        <activity android:name=".uthenticate.RegisterActivity" />
+        <activity android:name=".patient.HomeScreenPatient" />
+        <activity android:name=".doctor.HomeScreenDoctor" />
+        <activity android:name=".uthenticate.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
