@@ -1,4 +1,5 @@
 # SmartClinicReservation
+![my clinic](https://user-images.githubusercontent.com/44062295/59229287-464b9280-8bda-11e9-8739-37fde779161e.png)
 
 ## SmartClinicReservation Feast :
 An app that uses Firebase to store patient booked time and chat message between doctor and patients. <br />
